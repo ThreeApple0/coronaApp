@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        thread(start = true){
+        thread(start =  true){
             data = getxmlData()
             runOnUiThread{
                 Log.d("MY_LOG","2")
